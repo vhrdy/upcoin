@@ -6,6 +6,7 @@ import { ImageZoom } from '@/components/ui/shadcn-io/image-zoom';
 export default function Gallery() {
   return (
     <div className="relative">
+      <p className="text-2xl mb-2 font-bold italic">up only memes</p>
       <div
         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-4 max-h-[550px] overflow-y-auto scrollbar-hide"
         style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}

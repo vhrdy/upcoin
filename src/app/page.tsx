@@ -23,7 +23,7 @@ export default function Home() {
         <div className="h-auto md:h-full flex items-center justify-center px-4">
          <TextTopRight/>
         </div>
-        <div className="h-auto md:h-full md:border-t border-white flex flex-col items-center justify-center">
+        <div className="h-auto md:h-full md:border-t border-white flex flex-col items-center justify-center py-4">
         <p className="text-2xl mb-2 font-bold italic">up only data</p>
           <PriceChart/>
         </div>

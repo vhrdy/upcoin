@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "/assets/banner.png",
+        url: "https://www.thisisupcoin.com/assets/banner.png",
         width: 1200,
         height: 630,
         alt: "only up state of mind",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title:"only up state of mind",
     description:
       "Upcoin is the meme-asset for degenerates who still believe in only up.",
-    images: ["/assets/banner.png"],
+    images: ["https://www.thisisupcoin.com/assets/banner.png"],
     creator: "@thiscoingoesup",
   },
   icons: {

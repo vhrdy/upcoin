@@ -11,39 +11,38 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://upcoin.example"), // change avec ton vrai domaine
+  metadataBase: new URL("https://365art.org"),
   title: {
-    default: "Upcoin – Only Up State of Mind",
-    template: "%s | Upcoin",
+    default: "365 COINS – On-Chain Performance Art",
+    template: "%s | 365 COINS",
   },
   description:
-    "Upcoin is not just a coin, it's a mindset. A permanently up-only mental state for traders who refuse to look down.",
+    "365 COINS is a year-long on-chain performance by an artist deploying one token per day on Pump.fun. A reflection on creation, decay, and the permanence of digital memory.",
   openGraph: {
-    title: "only up state of mind",
+    title: "365 COINS – A Year of On-Chain Creation",
     description:
-      "Upcoin is a culture, a meme and a mental condition where the chart only goes one way: up.",
-    url: "upcoin-psi.vercel.app",
-    siteName: "Upcoin",
+      "An artistic performance unfolding over 365 days: one token per day, same hour, same ritual. Each coin lives, fades, yet remains forever on-chain.",
+    url: "https://365art.org",
+    siteName: "365 COINS",
     type: "website",
     locale: "en_US",
     images: [
       {
-        url: "https://www.thisisupcoin.com/assets/banner.png",
+        url: "https://365art.org/assets/banner.png",
         width: 1200,
         height: 630,
-        alt: "only up state of mind",
+        alt: "365 COINS – A Year of On-Chain Performance",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title:"only up state of mind",
+    title: "365 COINS – On-Chain Performance Art",
     description:
-      "Upcoin is the meme-asset for degenerates who still believe in only up.",
-    images: ["https://www.thisisupcoin.com/assets/banner.png"],
-    creator: "@thiscoingoesup",
+      "A year-long blockchain performance: one coin every day, a ritual of creation and oblivion. The first coin, $365, anchors the entire series.",
+    images: ["https://365art.org/assets/banner.png"],
+    creator: "@yourhandle", // replace with your real Twitter handle
   },
   icons: {
     icon: "/favicon.ico",
@@ -51,6 +50,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
 };
+
 
 export default function RootLayout({
   children,
